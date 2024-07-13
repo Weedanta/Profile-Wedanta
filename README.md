@@ -1,2 +1,0 @@
-# Profile-Wedanta
-# Profile-Wedanta
