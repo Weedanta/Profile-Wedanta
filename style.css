@@ -1,0 +1,28 @@
+
+.jumbotron {
+    padding-top: 5rem;
+    background-color: #232732;
+}
+
+.photo:hover{
+    transform: scale(1.05)
+}
+
+#projek {
+    background-color: #232732;
+}
+
+
+
+section {
+    padding-top: 5rem;
+    color: #ffffff;
+}
+
+.nav-item:hover {
+    border-radius: 0.1em solid #ffffff !important;
+}
+
+.probtn:hover {
+    background-color: #7733FF !important;
+}
