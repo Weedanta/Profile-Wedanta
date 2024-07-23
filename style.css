@@ -12,7 +12,9 @@
     background-color: #232732;
 }
 
-
+.icon {
+    padding: 0 5vh
+}
 
 section {
     padding-top: 5rem;
