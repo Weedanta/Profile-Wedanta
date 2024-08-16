@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Image Header -->
-    <link rel="icon" href="img/foto profil.jpg" />
+    <link rel="icon" href="img/Logo.png" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -342,7 +342,7 @@
         <div class="row d-flex flex-wrap px-3">
           <div class="container container-fluid mt-4">
             <div
-              class="row d-flex justify-content-center align-items-center py-4"
+              class="row d-flex justify-content-center align-items-center py-4 photo"
               style="
                 background-color: #24272c;
                 border-radius: 2em;
@@ -396,6 +396,56 @@
             );
           "
         />
+        <container class="container py-5 d-flex flex-wrap" style="justify-content: center;">
+          <div class="col-md-5 mb-5">
+            <img
+              src="img/Logo.png"
+              class="rounded-circle"
+              style="height: fit-content; width: 40vh; box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.5);"
+              alt="" 
+            />
+          </div>
+          <form
+            action=""
+            class="d-flex flex-column gap-3 font-monospace col-md-6"
+            style="align-items: start; font-size: medium"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Your Name"
+              class="input"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              class="input"
+              required
+            />
+            <textarea
+              name="massage"
+              placeholder="Your Massage"
+              class="input"
+              style="height: 32vh"
+              required
+            ></textarea>
+            <button
+              type="submit"
+              class="btn probtn px-4 py-2"
+              style="
+                background-color: #24272c;
+                box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.5);
+                border-radius: 1em;
+                color: white;
+                font-size: large;
+              "
+            >
+              Send
+            </button>
+          </form>
+        </container>
       </div>
     </section>
     <!-- Akhir Contact Me -->
