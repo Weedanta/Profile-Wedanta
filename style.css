@@ -33,10 +33,19 @@ section {
     background-color: #24272c;
     background-color: #ffffff;
     height: 2em;
-    width: 48vw;
+    width: 50vw;
     padding: 1.2em 1.2em 1.2em 1.6em;
     border: none;
     outline: none;
     border-radius: 0.4em; 
     box-shadow: 0.5em 0.5em 1em rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width:800px) {
+    .input {
+        width: 68vw
+    }
+    .left{
+        display:none
+    }
 }
