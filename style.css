@@ -48,4 +48,8 @@ section {
     .left{
         display:none
     }
+
+    .profil{
+        width: 40vw !important;
+    }
 }
